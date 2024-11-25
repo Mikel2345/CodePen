@@ -4,7 +4,6 @@
     color: white;
     /* Flexbox container */
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     padding: 15px 10px 15px 30px;
 }
@@ -15,6 +14,7 @@
     padding-right: 50px;
 }
 
+/* Center column */
 h1 {
     color: yellow;
     margin: 0px;
@@ -23,7 +23,6 @@ h1 {
 .navigation-wrapper > .center-column {
     display: grid;
     grid-template-columns: 1fr;
-    /* grid-gap: 42px; */
     width: 500px;
 }
 
@@ -34,11 +33,11 @@ h1 {
 }
 
 .navigation-wrapper > .center-column > .links > .links-wrapper {
-    width: 250px;
+    width: 25%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 120px;
+    margin-right: 200px;
 }
 
 .navigation-wrapper > .center-column > .links > .links-wrapper > .nav-link a {
@@ -49,7 +48,7 @@ h1 {
 }
 
 .navigation-wrapper > .center-column > .links > .spark {
-    width: 65px;
+    width: 5%;
     color: #cbcbcb;
     display: flex;
     align-items: center;
@@ -84,14 +83,14 @@ h1 {
     width: fit-content;
     display: flex;
     align-items: center;
-    padding: 10px 15px;
+    padding: 1%px 2%px;
     justify-content: space-between;
     background-color: slategray;
     color: white;
 }
 
 .btn-text {
-    margin-right: 10px;
+    margin-right: 1%;
 }
 
 .create-icon {
