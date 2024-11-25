@@ -1,0 +1,87 @@
+/* Hero body section */
+
+.hero-section {
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    box-shadow: 100% rgb(97, 177, 97);
+}
+
+.hero-section > .hero-left-column {
+    width: 60%;
+    margin: 1%;
+    display: grid;
+    grid-column: 1fr;
+    /* align-items: initial; */
+}
+
+.hero-section > .hero-left-column > .top-text {
+    padding-right: 6%;
+}
+
+.hero-section > .hero-left-column > .top-text > .title > .title-text {
+    font-size: 2.2em;
+    padding-bottom: 2%;
+    color: white;
+}
+
+.hero-section > .hero-left-column > .top-text > .desc {
+    font-size: 1.8em;
+    color: lightgrey;
+}
+
+.hero-section > .hero-left-column > .bottom-btns {
+    display: flex;
+    align-items: initial;
+    margin-top: -40px;
+}
+
+.hero-section > .hero-left-column > .bottom-btns > .left-btn {
+    padding-right: 2%;
+}
+
+.hero-section > .hero-left-column > .bottom-btns > .left-btn button {
+    padding: 1% 2%;
+    font-size: 1.8em;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 3px;
+}
+
+.hero-section > .hero-left-column > .bottom-btns > .right-btn button{
+    padding: 1% 2%;
+    font-size: 1.8em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.hero-section > .hero-right-column {
+    width: 40%;
+    display: grid;
+    grid-column: 1fr;
+    align-items: center;
+    float: right;
+}
+
+.hero-section > .hero-right-column > .above-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: -15px;
+}
+
+.hero-section > .hero-right-column > .above-link h2 {
+    color: white;
+    margin-right: 1%;
+}
+
+.hero-section > .hero-right-column > .above-link a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.hero-section > .hero-right-column > .image img {
+    width: 50%;
+}
